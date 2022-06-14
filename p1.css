@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: gray;
+    font-family: 'Quicksand', sans-serif;
+     margin: 10px;
+    padding: 10px 50px;
+    color: white;
+    border-radius: 15px;
+    box-shadow: rgb(202, 240, 32) 5px 5px 3px;
+}
+.details p{
+    /* display: flex;
+    flex-direction: column; */
+    padding: 2px;
+    text-align: left;
+}
+.details .user{
+    padding: 30px 0px 0px 150px ;
+    font-size: 20px;
+}
+.details img{
+    box-shadow: rgb(0, 110, 255) 5px 5px 3px;
+}
